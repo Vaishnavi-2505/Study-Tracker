@@ -4,26 +4,36 @@
 
 The Marvellous Study Tracker App is a console-based Java application designed to
 help students systematically log, track, summarize, and export their study activities.
-It allows users to maintain daily study records, view summaries grouped by date or
+
+- It allows users to maintain daily study records, view summaries grouped by date or
 subject, and export all logs into a CSV file for offline reference.
-This project demonstrates practical usage of Java Collections, File I/O, and Object-
+- This project demonstrates practical usage of Java Collections, File I/O, and Object-
 Oriented Design in a real-world, utility-driven application.
 
-# Key Features
-- Insert Study Log
-- Record study sessions with date (auto-generated), subject, duration, and
+# Features
+1. Insert Study Log
+
+_ Record study sessions with date (auto-generated), subject, duration, and
 description.
-- Display Logs
-- View all study logs currently stored in memory.
-- Summary by Date
-- Calculate & display total study hours grouped by date.
-- Summary by Subject
-- Calculate & display total study hours grouped by subject.
-- Export to CSV
-- Export all study logs into a CSV file (MarvellousStudy.csv) for offline
+
+2. Display Logs
+
+_ View all study logs currently stored in memory.
+  
+3. Summary by Date
+
+_ Calculate & display total study hours grouped by date.
+  
+4. Summary by Subject
+
+_ Calculate & display total study hours grouped by subject.
+  
+5. Export to CSV
+
+_Export all study logs into a CSV file (MarvellousStudy.csv) for offline
 tracking.
-- User-Friendly Console Menu
-- Menu-driven interface with switch-case navigation for ease of use.
+_ User-Friendly Console Menu
+_ Menu-driven interface with switch-case navigation for ease of use.
 
 # Technologies Used
 • Language: Java
@@ -46,15 +56,15 @@ auto-generated.
 
 StudyLog
 
-• Represents a single study session.
-• Attributes: LocalDate date, String subject, double duration, String description.
-• Methods: Constructor, getters, toString().
+ Represents a single study session.
+ Attributes: LocalDate date, String subject, double duration, String description.
+ Methods: Constructor, getters, toString().
 
 StudyTracker
 
-• Manages all logs in memory.
-• Attributes: ArrayList<StudyLog> database.
-• Methods: InsertLog(), DisplayLog(), SummaryByDate(), SummaryBySubject(),
+Manages all logs in memory.
+Attributes: ArrayList<StudyLog> database.
+ Methods: InsertLog(), DisplayLog(), SummaryByDate(), SummaryBySubject(),
 ExportCSV().
 
 StudyTrackerApp (Main Class)
