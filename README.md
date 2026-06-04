@@ -1,7 +1,5 @@
 # Study-Tracker-App
 
-## Technology: Java
-
 # Project Overview
 
 The Marvellous Study Tracker App is a console-based Java application designed to
@@ -12,8 +10,8 @@ This project demonstrates practical usage of Java Collections, File I/O, and Obj
 Oriented Design in a real-world, utility-driven application.
 
 # Key Features
-• Insert Study Log
-◦ Record study sessions with date (auto-generated), subject, duration, and
+- Insert Study Log
+- Record study sessions with date (auto-generated), subject, duration, and
 description.
 • Display Logs
 ◦ View all study logs currently stored in memory.
