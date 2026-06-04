@@ -19,6 +19,7 @@ description.
 2. Display Logs
 
    - View all study logs currently stored in memory.
+    YYYY-MM-DD | Subject | Duration | Description
   
 3. Summary by Date
 
