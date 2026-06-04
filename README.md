@@ -50,7 +50,7 @@ StudyLog
 • Attributes: LocalDate date, String subject, double duration, String description.
 • Methods: Constructor, getters, toString().
 
-# StudyTracker
+StudyTracker
 
 • Manages all logs in memory.
 • Attributes: ArrayList<StudyLog> database.
