@@ -13,17 +13,17 @@ Oriented Design in a real-world, utility-driven application.
 - Insert Study Log
 - Record study sessions with date (auto-generated), subject, duration, and
 description.
-• Display Logs
-◦ View all study logs currently stored in memory.
-• Summary by Date
-◦ Calculate & display total study hours grouped by date.
-• Summary by Subject
-◦ Calculate & display total study hours grouped by subject.
-• Export to CSV
-◦ Export all study logs into a CSV file (MarvellousStudy.csv) for offline
+- Display Logs
+- View all study logs currently stored in memory.
+- Summary by Date
+- Calculate & display total study hours grouped by date.
+- Summary by Subject
+- Calculate & display total study hours grouped by subject.
+- Export to CSV
+- Export all study logs into a CSV file (MarvellousStudy.csv) for offline
 tracking.
-• User-Friendly Console Menu
-◦ Menu-driven interface with switch-case navigation for ease of use.
+- User-Friendly Console Menu
+- Menu-driven interface with switch-case navigation for ease of use.
 
 # Technologies Used
 • Language: Java
