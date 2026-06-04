@@ -56,7 +56,9 @@ StudyTracker
 • Attributes: ArrayList<StudyLog> database.
 • Methods: InsertLog(), DisplayLog(), SummaryByDate(), SummaryBySubject(),
 ExportCSV().
+
 StudyTrackerApp (Main Class)
+
 • Contains main() method.
 • Handles menu-driven interface and user input.
 • Calls appropriate methods from StudyTracker.
